@@ -5,7 +5,7 @@ return {
         require('remote-sshfs').setup{
             connections = {
                 ssh_configs = { -- which ssh configs to parse for hosts list
-                    vim.fn.expand "$HOME" .. "/.ssh/config", 
+                    vim.fn.expand "$HOME" .. "/.ssh/config",
                     "/etc/ssh/ssh_config",
                     -- "/path/to/custom/ssh_config"
                 },
@@ -60,7 +60,6 @@ return {
 
         -- Enhanced connect function for netrw
         local function connect_and_refresh_netrw()
-            local api = require('remote-sshfs.api')
             api.connect()
 
             -- Wait for connection, then refresh netrw

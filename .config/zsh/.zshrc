@@ -124,3 +124,5 @@ unset __conda_setup
 source <(fzf --zsh)
 
 eval "$(zoxide init zsh)"
+
+export PATH="/home/davidoroian/repos/lua-language-server/bin:$PATH"
