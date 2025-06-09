@@ -4,6 +4,7 @@ return {
 	},
 	filetypes = {
 		"python",
+		"py",
 	},
 	root_markers = {
 		".git",
