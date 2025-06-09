@@ -126,3 +126,5 @@ source <(fzf --zsh)
 eval "$(zoxide init zsh)"
 
 export PATH="$HOME/repos/lua-language-server/bin:$PATH"
+
+export PATH="$PATH:/opt/nvim"
