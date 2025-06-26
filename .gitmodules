@@ -4,3 +4,6 @@
 [submodule ".config/gnome/plugins/rose-gnome"]
 	path = .config/gnome/plugins/rose-gnome
 	url = https://github.com/rose-pine/gnome-terminal.git
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = git@github.com:davidoroian/nvim.git
