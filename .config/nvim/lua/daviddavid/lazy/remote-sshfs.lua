@@ -14,6 +14,8 @@ return {
                 sshfs_args = { -- arguments to pass to the sshfs command
                     "-o reconnect",
                     "-o ConnectTimeout=5",
+                    "-o ServerAliveInterval=15",
+                    "-o ServerAliveCountMax=3",
                 },
             },
             mounts = {

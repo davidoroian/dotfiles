@@ -1,6 +1,6 @@
 return {
 	cmd = {
-		"/home/davidoroian/anaconda3/bin/pylsp",
+		vim.fn.expand('$HOME/anaconda3/bin/pylsp'),
 	},
 	filetypes = {
 		"python",
