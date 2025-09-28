@@ -22,6 +22,6 @@ _darcs
 ^/LICENSE.*
 ^/COPYING
 
-zcompdump* # ohmyzsh backup files
+/.config/zsh/.zcompdump* # ohmyzsh backup files
 
 .git/ # submodules .git dir
